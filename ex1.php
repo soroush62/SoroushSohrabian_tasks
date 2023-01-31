@@ -19,9 +19,12 @@
     to close";
     echo "hello world this is 'good' ";
     ?>
-    <h1>Write PHP code to display the following message.</h1>
+    <h1>3.2.Write PHP code to display the following message.</h1>
     <?php
      echo "Hello world! My name is \"Soroush\"";
     ?>
+    <h1>3.3.Write the PHP code in to display the current date.</h1>
+    <?php echo date("d.m.y") ?>
+
 </body>
 </html>
