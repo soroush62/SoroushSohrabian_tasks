@@ -1,5 +1,5 @@
 <?php
-$title = "saladmenu";
+$title = "drinkmenu";
 include "header.php" ?>
 <!doctype html>
 <html lang="en">
@@ -225,12 +225,12 @@ hr.style1{
   </head>
   <body>    
 
-             <div class="row" id="Linediv">
+  <div class="row">
               <div class="col-md-4" id="firstcol">
                 <hr class="style1">
               </div>
               <div class="col-md-4">
-                <h1>Uzbek Salads</h1>
+                <h1>Uzbek Drinks</h1>
               </div>
               <div class="col-md-4" id="firstcol">
                 <hr class="style1">
@@ -238,30 +238,26 @@ hr.style1{
              </div> 
             <div class="row" id="content">
                 <div class="col-md-3">
-                    <p class="mt-5 text-light">“Uzbekistan” salad, despite the name, isn’t part of traditional Uzbek 
-                      cuisine. Supposedly, it was invented in the 1950s in Moscow when Uzbek chefs tried to
-                       introduce Russians to their national cuisine for the first time. It combines Central Asian green radish 
-                      with the Russian love of mayonnaise – almost like an Uzbek version of the famous “Olivier” salad. It
-                       does look pretty “retro” – it reminds me of something you’d see in 1970s US cookbooks –
-                       but trust me, it’s delicious. The green radish is a refreshing complement to the fried onion, mayo,
-                       and oven-baked steak.Salads have their own unique taste and aroma.</p>
+                    <p class="mt-5 text-light">Uzbek tea secrets: Every country has its own tea tradition. 
+                      In Uzbekistan, this is a special culture. Every Uzbek citizen's day begins and ends with a sip of fragrant tea.
+                       After a hot breakfast in the morning, after a high-calorie lunch, dinner, or when guests arrive, tea is an irreplaceable part of a busy day</p>
                 </div>
               <div class="col-md-3">               
                 <div class="imagehover2 row mt-5">
-                  <img class="image2 rounded-circle" src="images/Moroccan tomato salad - 4$.jpg" alt="Moroccan tomato salad">
-                  <p>Garden salad </p>
-                  <h2> $4 </h2>
+                  <img class="image2 rounded-circle" src="images/uzb_tea.jpg" alt="Moroccan tomato salad">
+                  <p>Uzbek tea</p>
+                  <h2> $6 </h2>
                   <div class="overlay">
                     <div class="modal-header bg-white text-dark"> 
                       <div>
-                      <img src="images/Moroccan tomato salad - 4$.jpg" alt="Moroccan tomato salad" width="100px">  
+                      <img src="images/uzb_tea.jpg" alt="Moroccan tomato salad" width="100px">  
                       </div>
                       <div>                     
-                      <h4 class="modal-title  align-items-start">Moroccan tomato salad</h4>
+                      <h4 class="modal-title  align-items-start">Uzbek tea</h4>
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">juicy tomatoes, fresh herbs, and traditional Moroccan spices.</p>
+                      <p style="color: gray;">Traditional Uzbek tea made with love</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -270,20 +266,20 @@ hr.style1{
                 </div>
 
                 <div class="imagehover2 row mt-5">
-                  <img class="image2 rounded-circle" src="images/Garden salad - 3$.jpg" alt="Garden salad">
-                  <p>Garden salad </p>
-                  <h2> $3 </h2>
+                  <img class="image2 rounded-circle" src="images/peache.jpg" alt="Garden salad">
+                  <p>Peach juice </p>
+                  <h2> $6 </h2>
                   <div class="overlay">
                     <div class="modal-header bg-white text-dark"> 
                       <div>
-                      <img src="images/Garden salad - 3$.jpg" alt="Garden salad" width="100px">  
+                      <img src="images/peache.jpg" alt="Garden salad" width="100px">  
                       </div>
                       <div>                     
-                      <h4 class="modal-title  align-items-start">Garden salad</h4>
+                      <h4 class="modal-title  align-items-start">Peach juice</h4>
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">red onion, green onion, cucumber, cherry tomatoes, radishes and carrots</p>
+                      <p style="color: gray;">Fresh peach juice</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -294,20 +290,20 @@ hr.style1{
 
               <div class="col-md-3">                
                 <div class="imagehover2 row mt-5">
-                  <img class="image2 rounded-circle" src="images/Caesar salad - 6$.jpg" alt="Caesar salad">
-                  <p>Garden salad </p>
-                  <h2> $3 </h2>
+                  <img class="image2 rounded-circle" src="images/kiwiberry.jpg" alt="Caesar salad">
+                  <p> Kiwi Berry</p>
+                  <h2> $6 </h2>
                   <div class="overlay">
                     <div class="modal-header bg-white text-dark"> 
                       <div>
-                      <img src="images/Caesar salad - 6$.jpg" alt="Caesar salad" width="100px">  
+                      <img src="images/kiwiberry.jpg" alt="Caesar salad" width="100px">  
                       </div>
                       <div>                     
-                      <h4 class="modal-title  align-items-start">Caesar salad</h4>
+                      <h4 class="modal-title  align-items-start">Kiwi Berry</h4>
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">lettuce, Parmesan cheese, Crisp croutons,Caesar salad dressing</p>
+                      <p style="color: gray;">Fresh kiwi berry juice</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -316,20 +312,20 @@ hr.style1{
                 </div>
 
                 <div class="imagehover2 row mt-5">
-                  <img class="image2 rounded-circle" src="images/Spicy Squid Salad2 6$.jpg" alt="Spicy Squid Salad">
-                  <p>Spicy Squid salad</p>
+                  <img class="image2 rounded-circle" src="images/tomatoe.jpeg" alt="Spicy Squid Salad">
+                  <p>Tomato juice</p>
                   <h2> $6 </h2>
                   <div class="overlay">
                     <div class="modal-header bg-white text-dark"> 
                       <div>
-                      <img src="images/Spicy Squid Salad2 6$.jpg" alt="Spicy Squid Salad" width="100px">  
+                      <img src="images/tomatoe.jpeg" alt="Spicy Squid Salad" width="100px">  
                       </div>
                       <div>                     
-                      <h4 class="modal-title  align-items-start">Spicy Squid Salad</h4>
+                      <h4 class="modal-title  align-items-start">Tomato juice</h4>
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">a spicy, sweet dish made with boiled squid and fresh vegetables</p>
+                      <p style="color: gray;">fresh tomatoe juice</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -340,16 +336,16 @@ hr.style1{
               
               <div class="col-md-3"> 
                 <div class="imagehover2 row mt-5">
-                  <img class="image2 rounded-circle" src="images/shanghai salad.jpg" alt="shanghai salad">
-                  <p>shanghai salad</p>
-                  <h2> $5 </h2>
+                  <img class="image2 rounded-circle" src="images/orange.jpg" alt="shanghai salad">
+                  <p>Orange juice</p>
+                  <h2> $4 </h2>
                   <div class="overlay">
                     <div class="modal-header bg-white text-dark"> 
                       <div>
-                      <img src="images/shanghai salad.jpg" alt="shanghai salad" width="100px">  
+                      <img src="images/orange.jpg" alt="shanghai salad" width="100px">  
                       </div>
                       <div>                     
-                      <h4 class="modal-title  align-items-start">shanghai salad</h4>
+                      <h4 class="modal-title  align-items-start">orange Juice</h4>
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
@@ -364,20 +360,20 @@ hr.style1{
                 
 
                 <div class="imagehover2 row mt-5">
-                  <img class="image2 rounded-circle" src="images/cobb salad 3$.jpg" alt="cobb salad">
-                  <p>cobb salad</p>
+                  <img class="image2 rounded-circle" src="images/apple.jpg" alt="cobb salad">
+                  <p>Apple juice</p>
                   <h2> $6 </h2>
                   <div class="overlay">
                     <div class="modal-header bg-white text-dark"> 
                       <div>
-                      <img src="images/cobb salad 3$.jpg" alt="cobb salad" width="100px">  
+                      <img src="images/apple.jpg" alt="cobb salad" width="100px">  
                       </div>
                       <div>                     
-                      <h4 class="modal-title  align-items-start">cobb salad</h4>
+                      <h4 class="modal-title  align-items-start"> Apple juice</h4>
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">crispy bacon, hard-boiled eggs, chicken breast and creamy avocado</p>
+                      <p style="color: gray;">fresh apple juice</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -385,6 +381,11 @@ hr.style1{
                   </div>
                 </div>
               </div>                             
+                
+
+                
+              </div>
+            </div>                             
                 
 
                 
