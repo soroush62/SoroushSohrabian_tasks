@@ -28,7 +28,9 @@ include "header.php" ?>
   background-attachment:fixed;
   background-repeat: no-repeat;
   mmargin-top: 90px;
-  
+  display: flex;
+  flex-flow: column;
+  overflow-x: hidden; 
 }
 #content {
   width: 80%;
@@ -194,10 +196,13 @@ hr.style1{
   border-top: 4px solid #fefefe;
 }
 #firstcol {
-  padding: 15px 0 0 0;
+  padding-top: 15px;
 }
 .AppStore {
   width: 100px;
+}
+#Linediv{ 
+  display: block !important;
 }
 
 @media (min-width: 1200px){

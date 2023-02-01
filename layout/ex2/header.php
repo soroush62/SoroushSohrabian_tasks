@@ -235,8 +235,8 @@ hr.style1{
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button" data-bs-toggle="dropdown">MENU</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-white bg-dark" href="food.html">FOOD</a></li>
-                        <li><a class="dropdown-item text-white bg-dark" href="index.php">SALAD</a></li>
+                        <li><a class="dropdown-item text-white bg-dark" href="index-food.php">FOOD</a></li>
+                        <li><a class="dropdown-item text-white bg-dark" href="index-salad.php">SALAD</a></li>
                         <li><a class="dropdown-item text-white bg-dark" href="drinks.html">DRINK</a></li>
                       </ul>
                     </li>
