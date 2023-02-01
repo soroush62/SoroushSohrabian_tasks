@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php
+$title = "some ciontent";
+include "header.php" ?>
 
 <h1>some ciontent</h1>
 <p>Mark Otto announced Bootstrap 4 on October 29, 2014.

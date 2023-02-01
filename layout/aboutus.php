@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php
+$title = "About us";
+include "header.php" ?>
 <h2>About us</h2>
 <p>Mark Otto announced Bootstrap 4 on October 29, 2014.
         The first alpha version of Bootstrap 4 was released on August 19, 2015.[10]
