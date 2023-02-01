@@ -20,3 +20,4 @@
     <h1>3.3.Write the PHP code in to display the current date.</h1>
     <?php echo date("d.m.Y") ?>
     <?php include "footer.php" ?>
+    <h3>3.4.$title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h3>
