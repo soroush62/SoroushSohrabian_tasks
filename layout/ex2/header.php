@@ -247,7 +247,7 @@ hr.style1{
                       <a class="nav-link nav-link text-light" href="#">RESERVATION</a>
                     </li>  
                     <li class="nav-item" id="navend">
-                      <a class="nav-link nav-link text-light" href="#">BLOG</a>
+                      <a class="nav-link nav-link text-light" href="ex1.php">exercise1</a>
                     </li>
                     <li class="nav-item" id="facebook">
                       <a class="nav-link nav-link text-light" href="#"><i class="bi bi-facebook"></i></i></a>
@@ -260,3 +260,5 @@ hr.style1{
               </div>
             </nav>
           </div>
+          </div>
+  </body>
