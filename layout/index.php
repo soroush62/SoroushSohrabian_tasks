@@ -11,7 +11,7 @@ include "header.php" ?>
          Bootstrap 4 was finalized on January 18, 2018</p>
          <p>Mark Otto announced Bootstrap 4 on October 29, 2014.
         The first alpha version of Bootstrap 4 was released on August 19, 2015.[10]
-         The first beta version was released on 10 August 2017.[11] 
+         The first beta version was released on 10 August 2017aaaa.[11] 
         </p>
 
 <?php include "footer.php" ?>
