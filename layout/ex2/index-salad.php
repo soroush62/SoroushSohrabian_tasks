@@ -1,3 +1,6 @@
+<?php
+$title = "some ciontent";
+include "header.php" ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -382,3 +385,4 @@ hr.style1{
                 
               </div>
             </div> 
+            <?php include "footer.php" ?>
