@@ -237,7 +237,7 @@ hr.style1{
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item text-white bg-dark" href="index-food.php">FOOD</a></li>
                         <li><a class="dropdown-item text-white bg-dark" href="index-salad.php">SALAD</a></li>
-                        <li><a class="dropdown-item text-white bg-dark" href="index-drink">DRINK</a></li>
+                        <li><a class="dropdown-item text-white bg-dark" href="index-drink.php">DRINK</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
