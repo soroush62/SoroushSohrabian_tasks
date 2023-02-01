@@ -19,5 +19,37 @@
     ?>
     <h1>3.3.Write the PHP code in to display the current date.</h1>
     <?php echo date("d.m.Y") ?>
-    <?php include "footer.php" ?>
+   
     <h3>3.4.$title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h3>
+    <?php
+    $title1 = "php is interesting";
+    echo "<h1>" . $title1 . "</h1>";
+    ?>
+    <h3>3.5.table & variables. </h3>
+    <?php
+    $g1 = 5;
+    $g2 = 4;
+    $g3 = 5;
+    echo "
+    <table>
+    <tr>
+    <th> S.N </th><th> Name </th><th> Grade </th>
+    </tr>
+    <tr>
+    <td> 1</td><td> Pekka </td><td> $g1 </td>
+    </tr>
+    <tr>
+    <td> 2</td><td> Johanna </td><td> $g2 </td>
+    </tr>
+    <tr>
+    <td> 3</td><td> John </td><td> $g3 </td>
+    </tr>
+    </table>
+    
+    ";
+    ?>
+    <h3>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.</h3>
+    <img src="ex1.png" alt="" >
+
+
+    <?php include "footer.php" ?>
