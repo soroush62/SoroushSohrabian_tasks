@@ -1,6 +1,12 @@
   <?php
   $title = "Exercise 1";
   include "header.php" ?>
+  <style>
+    body{
+      color: white !important;
+      text-align: center !important;
+    }
+  </style>
     <h1>3.1 Write a simple PHP script to print your information (Name and your groupid)</h1>
     <?php
     echo "Soroush Sohrabian <br>";

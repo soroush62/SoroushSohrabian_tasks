@@ -223,8 +223,11 @@ hr.style1{
         </style>
         
   </head>
-  <body>    
+  <body>  
+    
 
+  <div class="">
+          
              <div class="row" id="Linediv">
               <div class="col-md-4" id="firstcol">
                 <hr class="style1">
@@ -390,4 +393,59 @@ hr.style1{
                 
               </div>
             </div> 
-            <?php include "footer.php" ?>
+
+            <div class="row" id="footer1">
+              <div class="col-md-12 " >
+                <h3>WHY CHOOSE UZBEKOVKAT:</h3> 
+                <p style="font-size: 22px;">UZBEKOVKAT is the only international Uzbekistani food restorant in the world.
+                   We decided to take the initiative of making this restorant because we love and value
+                   Uzbek foods and delicacies and we would love to share them with the world through our fine salads, drinks and foods.</p>                   
+              </div>
+              <div>
+                <h4><b>Order anywhere, anytime! download our App</h4> 
+                <a href=""><img class="AppStore" src="images/App Store Badge.png" alt="App Store" width="15px"></a> 
+                <a href=""><img class="AppStore" src="images/Google Play Store Badge.png" alt="Google Play Store" width="15px"></a> 
+              </div>              
+            </div>
+            <div class="container">
+              <div class="row" id="footer2">                
+                <div class="col  justify-content-center" id="Dubai" style="width: 270px; height: 300px;">
+                  <div id="myCarousel" class="carousel slide justify-content-center" data-ride="carousel" >                  
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="item active carousel-image">
+                        <img src="images/salad5.jpg" alt="Los Angeles" style="width:100%;">
+                      </div>
+                
+                      <div class="item carousel-image">
+                        <img src="images/salad6.jpg" alt="Chicago" style="width:100%;">
+                      </div>
+                    
+                      <div class="item carousel-image">
+                        <img src="images/salad7.jpg" alt="New york" style="width:100%;">
+                      </div>
+                    </div>            
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>     
+              </div>
+            </div>  
+            
+        </div>           
+          
+          
+  
+    
+  
+<?php include "footer.php" ?>

@@ -18,6 +18,7 @@
 .top {
   /* margin-left: 10%; */
   height: 100%;
+  color: white;
  
   
 }
@@ -215,7 +216,7 @@ hr.style1{
         <link rel="icon" href="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-food-logo-png-image_5297921.png" >
         
   </head>
-  <body>
+ 
 <div class="">
           <div class="top">
             <nav class="navbar navbar-expand-sm navbar-dark fs-3">
@@ -261,4 +262,4 @@ hr.style1{
             </nav>
           </div>
           </div>
-  </body>
+  

@@ -463,57 +463,47 @@ width: auto;
            <div class="cont">
    
                
-               <!-- <nav>
-                   <ul >
-                    
-                    <img class="" src="images/R3.png" alt="Moroccan tomato salad" width="100px" height="100px">    
-                   
-                        
-                       <li><a class="active"  style="font-size:17px ;"  href="file:///D:/Hobby/project1/LastPr/index.html">HOME</a></li>
-                       <div>
-                       <div class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">MENU</a>
-                          <div class="dropdown-menu">
-                              <a href="food.html" class="dropdown-item text-white bg-dark">FOOD</a>
-                              <a href="salad.html" class="dropdown-item text-white bg-dark">SALAD</a>
-                              <a href="drinks.html" class="dropdown-item text-white bg-dark">DRINK</a>
-                          </div>
-                      </div>
-                       </div>
-                       
-                       
-                       <li><a href="#">GALLERY</a></li>
-                       <li><a href="#">ABOUT US</a></li>
-                       <li><a href="#">LOCATION</a></li>
-                       <li class="blog"> <a href="">BLOG</a> </li>
-   
-                       <!--     Add icon library    -->
-                       
-                       <!-- <li class="face">
-                           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-                           <a href="#" class="fa fa-facebook"></a>
-                           <a href="#" class="fa fa-twitter"></a>
-                       </li>
-                       <li class="face"> </a> </li>
-   
-                   </ul>
-               </nav> --> 
-           </div>
            <div class="mid">
    
-               <ul>
+   <ul>
 <li class="name2" style="font-family: 'Dancing Script', cursive; font-size: 66px; color: rgb(245, 86, 6);">Welcome</li>
-                  
-                   <li style="font-size:40PX ;"> RESTAURANT</li>
-                   <li style="font-size:18PX ; font-weight: normal;"> <span class="vert">__________</span> NEW FLAVOURS
-                       <span class="vert">__________</span>
-                   </li>
-               </ul>
-               <div class="button">
-                   <a href="#" class="button">BOOK A TABLE</a>
-   
-               </div>
-           </div>
-   
-       </div>
+      
+       <li style="font-size:40PX ;"> RESTAURANT</li>
+       <li style="font-size:18PX ; font-weight: normal;"> <span class="vert">__________</span> NEW FLAVOURS
+           <span class="vert">__________</span>
+       </li>
+   </ul>
+   <div class="button">
+       <a href="#" class="button">BOOK A TABLE</a>
+
+   </div>
+</div>
+
+</div>
+
+
+
+<div class="MIDLE">
+<article>
+<h3> YOU DON'T NEED A SILVER FORK TO EAT GOOD FOOD </h3>
+ 
+<div class="pic-ctn">
+   <p class="FFF">
+    Uzbek cuisine is hearty, rich and delicious. Developed to feed an agrarian society, many of its dishes are packed full of calories once needed to sustain workers in the fields. Recipes are heavy on meat, relying primarily on the fatty sheep that graze in the country's pastureland.
+   </p>
+
+    
+       <img src="https://attuale.ru/wp-content/uploads/2018/02/7fb0ba22ade79be35017e8a0f07fb089.jpg" alt=""
+           class="pic">
+       <img src="https://adonius.club/uploads/posts/2022-08/1660181265_66-adonius-club-p-uzbekskoe-blyudo-damlama-krasivo-foto-70.jpg"
+           alt="" class="pic">
+       <img src="https://avatars.dzeninfra.ru/get-zen_doc/30884/pub_5b0f05cbc3f75e00a7e3e3b0_5b0f15fcd7bf2102f7e242a6/scale_1200"
+           alt="" class="pic">
+       <img src="https://bystryerecepty.ru/wp-content/uploads/2022/06/blobid1530258764605.jpg" alt="" class="pic">
+       <img src="images/sumalyak.jpg" alt="" class="pic">
+
+</div>
+</article>
+</div>
+
        <?php include "footer.php" ?>

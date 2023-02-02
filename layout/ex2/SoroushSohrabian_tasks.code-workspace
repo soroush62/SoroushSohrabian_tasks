@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "SoroushSohrabian_tasks",
+			"path": "../SoroushSohrabian_tasks"
+		},
+		{
+			"name": "Team-6",
+			"path": "../../../Computer Aplication/Website User Interface/Team-6"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SoroushSohrabian_tasks"
+	}
+}
