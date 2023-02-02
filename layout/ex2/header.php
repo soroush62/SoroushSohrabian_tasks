@@ -227,7 +227,7 @@ hr.style1{
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link nav-link text-light" href="index.html"><p style="color: rgb(255, 106, 0);"><b>HOME</b></p></a>
+                      <a class="nav-link nav-link text-light" href="home.php"><p style="color: rgb(255, 106, 0);"><b>HOME</b></p></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link nav-link text-light" href="#">ABOUT US</a>
