@@ -1,3 +1,6 @@
+<?php
+$title = "Home";
+include "header.php" ?>
 <!doctype html>
 <html lang="en">
 
@@ -10,7 +13,7 @@
     <link rel="stylesheet" href="styleAsror.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;family=Sofia+Sans:wght@200&amp;display=swap"
         rel="stylesheet">
-    <title>Cook</title>
+    <title><?php echo $title  ?></title>
 
     <link rel="icon" href="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-food-logo-png-image_5297921.png" >
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
@@ -152,3 +155,4 @@ body {
            </div>
    
        </div>
+       <?php include "footer.php" ?>
