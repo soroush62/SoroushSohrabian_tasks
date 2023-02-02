@@ -119,7 +119,7 @@ nav {
 #footer1 {
   margin: 0 auto;
   background-color: rgb(172, 107, 72);
-  height: 100%;
+  height: 300px !important;
   color: white;
   text-align: center;
   ffont-size: 20px;
