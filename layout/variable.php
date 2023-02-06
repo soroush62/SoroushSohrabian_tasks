@@ -63,10 +63,15 @@ $name="Pekka";
 $lname = "HON";
 
 echo "<br>". $name . " " .$lname;
+echo "<br>" . 'this will print $name';
+echo "<br>" . "this will print $name";
 //strlen built in function
 echo  "<br>". "The length of " . $name . " is " . strlen(($name));
 //strpos()
 echo "<br>". strpos("Hello world this is interesting", "is");
 //str_word_count()
 echo "<br>". str_word_count("count the number of words");
+
+// escaping characters
+echo "<br>". "this is \"intersting\"";
 ?>
