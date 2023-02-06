@@ -52,3 +52,17 @@ test3();
 test3();
 test3();
 ?>
+
+<?php
+$host = $_SERVER['DOCUMENT_ROOT'];
+echo "<br>" . $host;
+?>
+
+<?php
+$name="Pekka";
+$lname = "HON";
+
+echo "<br>". $name . " " .$lname;
+//strlen built in function
+echo  "<br>". "The length of " . $name . " is" . strlen(($name));
+?>
