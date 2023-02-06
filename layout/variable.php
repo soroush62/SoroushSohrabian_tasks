@@ -35,9 +35,20 @@ echo "<br>" . $a;
 $name="Pekka";
 //Local scope
 function test2(){
-    global $name;
+    global $name; //global  keyword
     $b = 20;
     echo "<br>". $name; 
 }
 test2();
+?>
+<?php
+//static  keyword
+function test3(){
+   static $num = 5;  //in this way on completion of function variables do not deleted   
+    echo "<br>". $num ;
+    $num++;
+}
+test3();
+test3();
+test3();
 ?>
