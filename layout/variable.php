@@ -64,5 +64,9 @@ $lname = "HON";
 
 echo "<br>". $name . " " .$lname;
 //strlen built in function
-echo  "<br>". "The length of " . $name . " is" . strlen(($name));
+echo  "<br>". "The length of " . $name . " is " . strlen(($name));
+//strpos()
+echo "<br>". strpos("Hello world this is interesting", "is");
+//str_word_count()
+echo "<br>". str_word_count("count the number of words");
 ?>
