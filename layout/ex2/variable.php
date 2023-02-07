@@ -46,12 +46,32 @@
     <thead>
     </table>  
     ";
-    <h3></h3>
+    <h3>4.Write a PHP script with two string variables. Assign any text to these variables. Join them together.  Print the length of the string. (Hint: string function)
+</h3>
     <?php
-    
-
+    $name = "Soroush";
+    $familly = "Sohrabian";
+    echo $name . " " . $familly;
+    $lengthname = strlen($name);
+    $lengthfname = strlen($familly);
+    $length=$lengthname+$lengthfname;
+    echo "<br>" . "The length of my full name is " . $length; 
     ?>
+
+<h3>5.Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo statement to output your answer.</h3>
+    <?php
+   echo "<br>". $value = 298+234+46; 
+   ?>
    
+   <h3>6.Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER)</h3>
+    <?php
+    echo  "<br>". $_SERVER['HTTP_USER_AGENT'];
+   ?>
+
+<h3>7.Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file.</h3>
+    <?php
+    echo  "<br>". $_SERVER['HTTP_USER_AGENT'];
+   ?>
 
 
  <?php include "footer.php" ?>
