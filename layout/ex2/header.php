@@ -245,7 +245,7 @@ hr.style1{
                       <a class="nav-link nav-link text-light" href="#">GALLARY</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link text-light" href="#">RESERVATION</a>
+                      <a class="nav-link nav-link text-light" href="variable.php">exercise3</a>
                     </li>  
                     <li class="nav-item" id="navend">
                       <a class="nav-link nav-link text-light" href="ex1.php">exercise1</a>
