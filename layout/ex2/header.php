@@ -17,7 +17,7 @@
 }
 .top {
   /* margin-left: 10%; */
-  height: 1%;
+  height: 100%;
   color: white;
  
   
