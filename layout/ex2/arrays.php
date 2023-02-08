@@ -41,6 +41,8 @@ $products = array (
     foreach ($items as $key => $value)
     echo "<br>". "$type: \t $key \t $value <br>";
     } 
-
+//array functions
+//is_array
+echo "<br>" . (is_array($products) ? "it is an array" : "it is not an array");
 ?>
 
