@@ -242,7 +242,7 @@ hr.style1{
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link text-light" href="#">GALLARY</a>
+                      <a class="nav-link nav-link text-light" href="exc4.php">exercise4</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link nav-link text-light" href="variable.php">exercise3</a>
