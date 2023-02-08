@@ -237,10 +237,10 @@ hr.style1{
                 <p>6 PM to 3 AM</p>
                 <a href="">FOLLOW US</a>
                 <?php
-                $filename = 'variable.php';
-                if (file_exists($filename)) {
-                    echo "<br>" . "$filename last modified in : " . date ("F d Y H:i:s.", filemtime($filename));
-                }
+                $fname = basename($_SERVER['PHP_SELF']);
+                $Last_modification = filemtime($fname);                
+                echo "<br>" . " last modified in : " . date ("F d Y H:i:s.", $Last_modification);
+                
                 ?> 
               </div>               
             </div>
