@@ -17,7 +17,7 @@
 }
 .top {
   /* margin-left: 10%; */
-  height: 100%;
+  height: 1%;
   color: white;
  
   
@@ -242,7 +242,7 @@ hr.style1{
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link text-light" href="exc4.php">exercise4</a>
+                      <a class="nav-link nav-link text-light" href="ex4.php">exercise4</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link nav-link text-light" href="variable.php">exercise3</a>
