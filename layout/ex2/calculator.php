@@ -44,4 +44,4 @@ if (isset($result)){
     echo "<h2> Result: $result</h2>";
 }
 ?>
-<?php include "footer.php" ?>
+<?php include "footer.php"; ?>
