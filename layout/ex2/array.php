@@ -62,7 +62,15 @@ for ($i = 0; $i < $num; $i++)
 ?>
 <h3>5.List all your favorite colors and their hexadecimal equivalents.</h3>
 <?php
-
+$favcolors = array (  
+      'Orange ' => "#FFA500",
+      'red' => "#FF0000",
+      'blue' => "	#0000FF",
+      'black' => "	#000000",
+      'yellow' => "	#FFFF00",
+  );
+  foreach ($favcolors as $color => $hexadecimalequivalent){ 
+  echo "<br>". "Color is $color and its hexadecimal equivalents is $hexadecimalequivalent"; } 
 ?>
 
 
