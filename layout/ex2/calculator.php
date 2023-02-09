@@ -37,7 +37,7 @@ if(isset($_GET["cal"])){
             $result = $num1 / $num2;
         break;
         default:
-            $result = "Err7ror : you have not selected the correct operator";
+            $result = "Errror : you have not selected the correct operator";
     }
 }
 if (isset($result)){
