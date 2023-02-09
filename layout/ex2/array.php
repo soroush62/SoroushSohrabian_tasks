@@ -20,61 +20,49 @@ for ($i = 0; $i < $num; $i++)
 <?php
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 unset($courses1[0]);
-$num = count(($courses1));
-echo "<ul>";
-for ($i = 0; $i < $num; $i++)
-    echo "<li>" . $courses1[$i+1] . "</li>"; 
-    echo "</ul>";  
+echo implode(",", $courses1); 
 ?>
 <h4>Sort the following array :</h4>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 sort($courses3);
-$num = count(($courses3));
-echo "<ul>";
-for ($i = 0; $i < $num; $i++)
-    echo "<li>" . $courses3[$i] . "</li>"; 
-    echo "</ul>";  
+echo implode(",", $courses3); 
 ?>
 <h4> a.ascending order sort by value:</h4>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 asort($courses3);
-$num = count(($courses3));
-echo "<ul>";
-for ($i = 0; $i < $num; $i++)
-    echo "<li>" . $courses3[$i] . "</li>"; 
-    echo "</ul>";  
+echo implode(",", $courses3); 
 ?>
 <h4>b.ascending order sort by Key</h4>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 ksort($courses3);
-$num = count(($courses3));
-echo "<ul>";
-for ($i = 0; $i < $num; $i++)
-    echo "<li>" . $courses3[$i] . "</li>"; 
-    echo "</ul>";  
+echo implode(",", $courses3); 
 ?>
 <h4>c.descending order sort by Value</h4>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 arsort($courses3);
-$num = count(($courses3));
-echo "<ul>";
-for ($i = 0; $i < $num; $i++)
-    echo "<li>" . $courses3[$i] . "</li>"; 
-    echo "</ul>";  
+echo implode(",", $courses3); 
 ?>
 <h4>d.descending order sort by Key</h4>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 krsort($courses3);
-$num = count(($courses3));
-echo "<ul>";
+echo implode(",", $courses3); 
+?>
+<h3>4.Change the following array's all values to upper case.</h3>
+<?php
+$courses4=array("php", "html", "javascript", "cms", "project");
+$num = count(($courses));
 for ($i = 0; $i < $num; $i++)
-    echo "<li>" . $courses3[$i] . "</li>"; 
-    echo "</ul>";  
+    echo "<li>" . strtoupper($courses[$i]) . "</li>";
+    echo "</ul>";
+?>
+<h3>5.List all your favorite colors and their hexadecimal equivalents.</h3>
+<?php
+
 ?>
 
 
