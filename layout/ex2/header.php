@@ -17,7 +17,7 @@
 }
 .top {
   /* margin-left: 10%; */
-  height: 100%;
+  height: auto !important;
   color: white;
  
   
@@ -231,7 +231,7 @@ hr.style1{
                       <a class="nav-link nav-link text-light" href="home.php"><p style="color: rgb(255, 106, 0);"><b>HOME</b></p></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link text-light" href="#">ABOUT US</a>
+                      <a class="nav-link nav-link text-light" href="array.php">exercise5</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button" data-bs-toggle="dropdown">MENU</a>
@@ -242,7 +242,7 @@ hr.style1{
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link text-light" href="ex4.php">exercise4</a>
+                      <a class="nav-link nav-link text-light" href="controlflow.php">exercise4</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link nav-link text-light" href="variable.php">exercise3</a>
