@@ -57,7 +57,7 @@ nav {
   /* margin-top: 10px; */
   /* width: 85%; */
   /* margin-left: 135px; */
-  position: fixed;
+  pposition: fixed;
   width: 85%;
   font-weight: bold;
 }

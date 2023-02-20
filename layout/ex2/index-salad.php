@@ -40,10 +40,9 @@ include "header.php" ?>
 }
 .top {
   /* margin-left: 10%; */
-  height: 100%;
- 
-  
+  height: 100%;  
 }
+
 .mt-5 {
   font-size: 17px;
 }
@@ -61,13 +60,18 @@ h1 {
   font-size: 55px;
 }
 
+.col-md-3 p{
+  color:white;
+  text-align:center;
 
+}
 h2 {
-  font-size: 25px;
-  color: rgb(255, 119, 0);
+  font-size: 25px !important;
+  color:rgb(255, 119, 0) !important;
+  text-align: center;
 }
 a, nav a:visited, nav a:active{
-  text-decoration: none; 
+  text-decoration: none ; 
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
@@ -264,7 +268,7 @@ hr.style1{
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">juicy tomatoes, fresh herbs, and traditional Moroccan spices.</p>
+                      <p>juicy tomatoes, fresh herbs, and traditional Moroccan spices.</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -286,7 +290,7 @@ hr.style1{
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">red onion, green onion, cucumber, cherry tomatoes, radishes and carrots</p>
+                      <p >red onion, green onion, cucumber, cherry tomatoes, radishes and carrots</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -310,7 +314,7 @@ hr.style1{
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">lettuce, Parmesan cheese, Crisp croutons,Caesar salad dressing</p>
+                      <p>lettuce, Parmesan cheese, Crisp croutons,Caesar salad dressing</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -332,7 +336,7 @@ hr.style1{
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">a spicy, sweet dish made with boiled squid and fresh vegetables</p>
+                      <p>a spicy, sweet dish made with boiled squid and fresh vegetables</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -356,7 +360,7 @@ hr.style1{
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">chicken, peppers, oranges, onions, wonton strips and cashews</p>
+                      <p>chicken, peppers, oranges, onions, wonton strips and cashews</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>
@@ -380,7 +384,7 @@ hr.style1{
                       </div>
                     </div>
                     <div class="modal-body  bg-white text-dark">                          
-                      <p style="color: gray;">crispy bacon, hard-boiled eggs, chicken breast and creamy avocado</p>
+                      <p>crispy bacon, hard-boiled eggs, chicken breast and creamy avocado</p>
                     </div>
                     <div class="modal-footer  bg-white text-dark justify-content-center">
                       <button type="button" class="btn btn-default justify-content-center" data-dismiss="modal"><p style="color: rgb(255, 115, 0); font-size: 20px;">order now</p></button>

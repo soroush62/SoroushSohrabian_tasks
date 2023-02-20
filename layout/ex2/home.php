@@ -120,6 +120,7 @@ li a:hover {
 
 /* ---mid------- */
 .mid {
+  padding-bottom: 30%;
   align-items: center;
   padding-top: 20%;
   display: block;

@@ -71,10 +71,15 @@ h1{
   margin-top: 10px;
   font-family: 'Dancing Script', cursive; font-size: 40px;
 }
+.col-md-3 p{
+  color:white;
+  text-align:center;
 
+}
 h2 {
-  font-size: 25px;
-  color: rgb(255, 119, 0);
+  font-size: 25px !important;
+  color:rgb(255, 119, 0) !important;
+  text-align: center;
 }
 a, nav a:visited, nav a:active{
   text-decoration: none; 
